@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookshop.catalogservice.domain.BookValidationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-11-13T11:01:57" hostname="ValeriedeMacBook-Pro.local" time="0.033">
+<testsuite name="com.bookshop.catalogservice.domain.BookValidationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-11-13T11:15:36" hostname="ValeriedeMacBook-Pro.local" time="0.022">
   <properties/>
-  <testcase name="whenTitleIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.026"/>
-  <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
-  <testcase name="whenPriceDefinedButZeroThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
+  <testcase name="whenTitleIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.011"/>
+  <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.0"/>
+  <testcase name="whenPriceDefinedButZeroThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.0"/>
   <testcase name="whenIsbnNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.002"/>
   <testcase name="whenPriceDefinedButNegativeThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
-  <testcase name="whenPriceIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.0"/>
+  <testcase name="whenPriceIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
   <testcase name="whenIsbnDefinedButIncorrectThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
   <testcase name="whenAuthorIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
-  <system-out><![CDATA[19:01:57.593 [Test worker] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.1.Final
-]]></system-out>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

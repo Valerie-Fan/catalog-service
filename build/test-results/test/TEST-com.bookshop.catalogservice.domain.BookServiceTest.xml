@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookshop.catalogservice.domain.BookServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-13T11:01:57" hostname="ValeriedeMacBook-Pro.local" time="0.494">
+<testsuite name="com.bookshop.catalogservice.domain.BookServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-13T11:15:36" hostname="ValeriedeMacBook-Pro.local" time="0.094">
   <properties/>
-  <testcase name="whenBookToCreateAlreadyExistsThenThrows()" classname="com.bookshop.catalogservice.domain.BookServiceTest" time="0.491"/>
-  <testcase name="whenBookToReadDoesNotExistThenThrows()" classname="com.bookshop.catalogservice.domain.BookServiceTest" time="0.003"/>
+  <testcase name="whenBookToCreateAlreadyExistsThenThrows()" classname="com.bookshop.catalogservice.domain.BookServiceTest" time="0.091"/>
+  <testcase name="whenBookToReadDoesNotExistThenThrows()" classname="com.bookshop.catalogservice.domain.BookServiceTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

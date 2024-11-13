@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookshop.catalogservice.web.BookControllerMvcTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-13T11:01:58" hostname="ValeriedeMacBook-Pro.local" time="0.026">
+<testsuite name="com.bookshop.catalogservice.web.BookControllerMvcTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-13T11:15:37" hostname="ValeriedeMacBook-Pro.local" time="0.016">
   <properties/>
-  <testcase name="whenGetBookNotExistingThenShouldReturn404()" classname="com.bookshop.catalogservice.web.BookControllerMvcTests" time="0.026"/>
-  <system-out><![CDATA[19:01:57.720 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bookshop.catalogservice.web.BookControllerMvcTests]: BookControllerMvcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-19:01:57.778 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bookshop.catalogservice.CatalogSeviceApplication for test class com.bookshop.catalogservice.web.BookControllerMvcTests
+  <testcase name="whenGetBookNotExistingThenShouldReturn404()" classname="com.bookshop.catalogservice.web.BookControllerMvcTests" time="0.016"/>
+  <system-out><![CDATA[2024-11-13T19:15:37.013+08:00  INFO 75331 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bookshop.catalogservice.web.BookControllerMvcTests]: BookControllerMvcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T19:15:37.030+08:00  INFO 75331 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bookshop.catalogservice.CatalogSeviceApplication for test class com.bookshop.catalogservice.web.BookControllerMvcTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,12 +14,12 @@
 
  :: Spring Boot ::                (v3.3.5)
 
-2024-11-13T19:01:57.913+08:00  INFO 73573 --- [    Test worker] c.b.c.web.BookControllerMvcTests         : Starting BookControllerMvcTests using Java 17.0.13 with PID 73573 (started by valeriefan in /Users/valeriefan/Desktop/catalog-service)
-2024-11-13T19:01:57.914+08:00  INFO 73573 --- [    Test worker] c.b.c.web.BookControllerMvcTests         : No active profile set, falling back to 1 default profile: "default"
-2024-11-13T19:01:58.290+08:00  INFO 73573 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-11-13T19:01:58.291+08:00  INFO 73573 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-11-13T19:01:58.291+08:00  INFO 73573 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-11-13T19:01:58.327+08:00  INFO 73573 --- [    Test worker] c.b.c.web.BookControllerMvcTests         : Started BookControllerMvcTests in 0.522 seconds (process running for 1.561)
+2024-11-13T19:15:37.054+08:00  INFO 75331 --- [    Test worker] c.b.c.web.BookControllerMvcTests         : Starting BookControllerMvcTests using Java 17.0.13 with PID 75331 (started by valeriefan in /Users/valeriefan/Desktop/catalog-service)
+2024-11-13T19:15:37.054+08:00  INFO 75331 --- [    Test worker] c.b.c.web.BookControllerMvcTests         : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T19:15:37.224+08:00  INFO 75331 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-13T19:15:37.224+08:00  INFO 75331 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-13T19:15:37.224+08:00  INFO 75331 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-11-13T19:15:37.233+08:00  INFO 75331 --- [    Test worker] c.b.c.web.BookControllerMvcTests         : Started BookControllerMvcTests in 0.199 seconds (process running for 1.943)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
