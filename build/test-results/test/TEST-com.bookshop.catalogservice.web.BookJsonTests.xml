@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookshop.catalogservice.web.BookJsonTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-13T10:58:37" hostname="ValeriedeMacBook-Pro.local" time="0.033">
+<testsuite name="com.bookshop.catalogservice.web.BookJsonTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-13T11:01:58" hostname="ValeriedeMacBook-Pro.local" time="0.045">
   <properties/>
-  <testcase name="testSerialize()" classname="com.bookshop.catalogservice.web.BookJsonTests" time="0.019"/>
-  <testcase name="testDeserialize()" classname="com.bookshop.catalogservice.web.BookJsonTests" time="0.013"/>
-  <system-out><![CDATA[2024-11-13T18:58:37.922+08:00  INFO 73095 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bookshop.catalogservice.web.BookJsonTests]: BookJsonTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-11-13T18:58:37.928+08:00  INFO 73095 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bookshop.catalogservice.CatalogSeviceApplication for test class com.bookshop.catalogservice.web.BookJsonTests
+  <testcase name="testSerialize()" classname="com.bookshop.catalogservice.web.BookJsonTests" time="0.028"/>
+  <testcase name="testDeserialize()" classname="com.bookshop.catalogservice.web.BookJsonTests" time="0.016"/>
+  <system-out><![CDATA[2024-11-13T19:01:58.363+08:00  INFO 73573 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bookshop.catalogservice.web.BookJsonTests]: BookJsonTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-13T19:01:58.367+08:00  INFO 73573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bookshop.catalogservice.CatalogSeviceApplication for test class com.bookshop.catalogservice.web.BookJsonTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -15,9 +15,9 @@
 
  :: Spring Boot ::                (v3.3.5)
 
-2024-11-13T18:58:37.945+08:00  INFO 73095 --- [    Test worker] c.b.catalogservice.web.BookJsonTests     : Starting BookJsonTests using Java 17.0.13 with PID 73095 (started by valeriefan in /Users/valeriefan/Desktop/catalog-service)
-2024-11-13T18:58:37.945+08:00  INFO 73095 --- [    Test worker] c.b.catalogservice.web.BookJsonTests     : No active profile set, falling back to 1 default profile: "default"
-2024-11-13T18:58:37.988+08:00  INFO 73095 --- [    Test worker] c.b.catalogservice.web.BookJsonTests     : Started BookJsonTests in 0.058 seconds (process running for 2.045)
+2024-11-13T19:01:58.379+08:00  INFO 73573 --- [    Test worker] c.b.catalogservice.web.BookJsonTests     : Starting BookJsonTests using Java 17.0.13 with PID 73573 (started by valeriefan in /Users/valeriefan/Desktop/catalog-service)
+2024-11-13T19:01:58.379+08:00  INFO 73573 --- [    Test worker] c.b.catalogservice.web.BookJsonTests     : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T19:01:58.416+08:00  INFO 73573 --- [    Test worker] c.b.catalogservice.web.BookJsonTests     : Started BookJsonTests in 0.046 seconds (process running for 1.65)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
