@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bookshop.catalogservice.domain.BookValidationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-11-13T10:58:37" hostname="ValeriedeMacBook-Pro.local" time="0.023">
+  <properties/>
+  <testcase name="whenTitleIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.012"/>
+  <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
+  <testcase name="whenPriceDefinedButZeroThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
+  <testcase name="whenIsbnNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.003"/>
+  <testcase name="whenPriceDefinedButNegativeThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
+  <testcase name="whenPriceIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.0"/>
+  <testcase name="whenIsbnDefinedButIncorrectThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
+  <testcase name="whenAuthorIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
