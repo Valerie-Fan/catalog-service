@@ -44,7 +44,6 @@ bootRun {
 }
 
 bootBuildImage {
-	builder = "ghcr.io/valeriefan/catalog-service"
 	imageName = "${project.name}"
 	environment = ["BP_JVM_VERSION": "17"]
 
