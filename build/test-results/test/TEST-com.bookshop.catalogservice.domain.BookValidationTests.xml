@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookshop.catalogservice.domain.BookValidationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-11-13T11:15:36" hostname="ValeriedeMacBook-Pro.local" time="0.022">
+<testsuite name="com.bookshop.catalogservice.domain.BookValidationTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-11-14T11:03:12" hostname="ValeriedeMacBook-Pro.local" time="0.019">
   <properties/>
-  <testcase name="whenTitleIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.011"/>
+  <testcase name="whenTitleIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.009"/>
+  <testcase name="whenPublisherIsNotDefinedThenValidationSucceeds()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.0"/>
   <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.0"/>
   <testcase name="whenPriceDefinedButZeroThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.0"/>
-  <testcase name="whenIsbnNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.002"/>
+  <testcase name="whenIsbnNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
   <testcase name="whenPriceDefinedButNegativeThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
   <testcase name="whenPriceIsNotDefinedThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
   <testcase name="whenIsbnDefinedButIncorrectThenValidationFails()" classname="com.bookshop.catalogservice.domain.BookValidationTests" time="0.001"/>
