@@ -54,8 +54,4 @@ bootBuildImage {
 			url = project.findProperty("registryUrl")
 		}
 	}
-
-	// Specify custom builder and run images
-	builder = 'paketobuildpacks/builder:base'  // You can try a different builder if needed
-	runImage = 'gcr.io/distroless/base'
 }
