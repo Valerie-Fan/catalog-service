@@ -39,7 +39,7 @@ jobs:
         with:
           sarif_file: ${{ steps.scan.outputs.sarif }}
       - name: Validate Kubernetes manifests
-        uses: ghcr.io/yannh/kubeconform-action@v1.0.0
+        uses: docker://ghcr.io/yannh/kubeconform:latest
         with:
           paths: "k8s/*.yml"
           arguments: "-strict"
